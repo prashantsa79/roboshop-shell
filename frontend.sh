@@ -9,4 +9,5 @@ cd /usr/share/nginx/html
 unzip /tmp/frontend.zip
 ### We will later update file ###
 # vim /etc/nginx/nginx.conf  ##
+cp nginx.conf /etc/nginx/nginx.conf
 systemctl restart nginx
